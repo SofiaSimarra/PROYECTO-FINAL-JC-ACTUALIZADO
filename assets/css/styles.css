@@ -211,3 +211,29 @@ nav {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
+
+/* Estilos de las secciones */
+.full-section {
+    padding: 60px 15px;
+    background-color:#357131;
+    color:white;
+}
+
+.full-section-{
+    padding: 60px 15px;
+    background-color:#12262D ;
+    color:white;
+}
+
+.subtitle-highlight, .main-title {
+    color: #1A260E;
+}
+
+.bg-highlight {
+    background-color: green;
+    
+}
+
+.text-center p, .text-center h3, .main-title {
+    color: white;
+}
