@@ -251,7 +251,7 @@ nav {
     max-width: 1100px;
     margin: auto;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Controla como se organizan los elementos cuando no caben en una sola linea */
 }
 
 .title-programas {
@@ -270,7 +270,7 @@ nav {
     max-width: 500px;
     margin: 20px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; /* Nos permite controlar cuando el contenido de un elemento es mas grande que el contenedor, ya que tiene un tamaño limitado*/
     background: #fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease-out;
@@ -323,7 +323,7 @@ nav {
 }
 
 /* Responsividad de Tarjetas */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {  /* Los @ se utilizan para dar instrucciones o establecer reglas especificas dentro de la hoja de estilos */
     .contenedor-programas {
         flex-direction: column;
         align-items: center;
@@ -344,6 +344,7 @@ nav {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     background-color:#357131;  
+    text-align: center;
 }
 
 .container {
@@ -384,7 +385,7 @@ nav {
     list-style: none;
 }
 
-.footer-list li:not(:last-child){
+.footer-list li:not(:last-child){ /* El last child permite aplicar estilos sobre el ultimo elemento de la lista en el contenedor */
     margin-bottom: 10px;
 }
 

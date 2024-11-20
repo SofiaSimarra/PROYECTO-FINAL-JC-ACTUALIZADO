@@ -14,3 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
     });
 });
+
+// Este codigo permite animar el boton interactivo y desplegar el menu de navegacion para dispositivos moviles

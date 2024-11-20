@@ -18,3 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+//Este código se utiliza para manejar el inicio de sesión en una página web. Cuando el usuario ingresa su correo y contraseña, el código verifica si esos datos coinciden con alguno de los usuarios almacenados en el localStorage. Si se encuentran, el usuario es redirigido a la página principal, y su información es guardada como el usuario actual.
