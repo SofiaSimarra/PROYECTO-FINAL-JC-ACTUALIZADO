@@ -72,3 +72,20 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+/* Estilo solo para la primera sección con fondo */
+header#home {
+    margin: 0;
+    padding: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-image: url("../images/mangles4k.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
