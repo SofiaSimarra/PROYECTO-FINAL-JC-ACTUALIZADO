@@ -321,3 +321,16 @@ nav {
     background: #2fb4cc;
     color: #fff;
 }
+
+/* Responsividad de Tarjetas */
+@media only screen and (max-width: 768px) {
+    .contenedor-programas {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .programas-card{
+        width: 90%;
+        max-width: none;
+    }
+}
