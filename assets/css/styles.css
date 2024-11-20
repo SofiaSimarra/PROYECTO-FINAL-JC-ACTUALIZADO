@@ -444,3 +444,72 @@ nav {
         width: 100%;
     }
 }
+
+.login{
+
+    background-color: hsla(219.70588235294125, 58%, 15%, 1);
+    background-image: radial-gradient(circle at 62% 78%, hsla(214.41176470588243, 88%, 31%, 0.85) 5.7405281285878305%, transparent 58.62803325806366%), radial-gradient(circle at 29% 67%, hsla(145.5882352941177, 60%, 43%, 0.89) 12.723102012377106%, transparent 68.25607464480481%), radial-gradient(circle at 88% 73%, hsla(288.52941176470586, 58%, 22%, 1) 10.939202957941662%, transparent 44.715421096328754%), radial-gradient(circle at 69% 34%, hsla(197.25855285132656, 98%, 30%, 0.96) 8%, transparent 43.552483542231%), radial-gradient(circle at 84% 20%, hsla(262.05882352941177, 67%, 22%, 0.29) 18.88675783993153%, transparent 88.64407965842258%), radial-gradient(circle at 37% 35%, hsla(132.21047976916427, 70%, 15%, 0.53) 7%, transparent 47.281256857882724%), radial-gradient(circle at 47% 12%, hsla(239.55882352941182, 69%, 11%, 1) 18.88675783993153%, transparent 88.64407965842258%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal;
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+padding: 50px;
+border-radius: 20px;
+background-color: rgb(11, 103, 60);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+gap: 30px;
+color: white;
+}
+
+.login form h1 {
+font-size: 60px;
+}
+
+.login form p {
+font-size: 30px;
+}
+
+.login form label {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.login form label span {
+font-size: 20px;
+font-weight: bold;
+}
+
+.login form label input, .login form select {
+padding: 10px;
+border-radius: 10px;
+outline: none;
+border: none;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login form button {
+padding: 10px;
+border-radius: 10px;
+background-color:   rgb(100, 100, 255);
+color: white;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.login form button:hover {
+background-color: rgb(9, 66, 147);
+}
+
+.login form a {
+color: white;
+}
+
