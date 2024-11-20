@@ -425,3 +425,22 @@ nav {
     font-size: 14px;
     margin-top: 20px;
 }
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
