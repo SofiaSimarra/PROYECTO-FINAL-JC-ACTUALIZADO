@@ -143,3 +143,11 @@ nav {
     color: #1ee95e;
     transform: scale(1.1);
 }
+
+/* Estilos para el botón de menú en celulares */
+#menu-toggle {
+    display: none; /* Oculto por defecto */
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
