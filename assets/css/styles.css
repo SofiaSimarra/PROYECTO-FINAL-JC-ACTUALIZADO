@@ -151,3 +151,32 @@ nav {
     color: white;
     cursor: pointer;
 }
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Oculta los enlaces inicialmente */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-links.show {
+        display: flex; /* Muestra el menú desplegable cuando se active */
+    }
+
+    .nav-links li a {
+        color: white;
+        padding: 10px 0;
+    }
+
+    /* Muestra el botón de menú en pantallas pequeñas */
+    #menu-toggle {
+        display: block; /* Muestra el ícono del menú en móviles */
+        margin-left: auto;
+    }
+}
