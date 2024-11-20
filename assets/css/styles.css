@@ -180,3 +180,34 @@ nav {
         margin-left: auto;
     }
 }
+
+/* Botón animado */
+#boton-animado {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#boton-animado:hover {
+    transform: scale(1.1);
+}
+
+.boton-activo {
+    transform: scale(1.2);
+    background-color: #256b99;
+}
+
+.boton-sesion {
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
